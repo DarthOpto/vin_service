@@ -20,7 +20,7 @@ def vin_service(make=None, year=None):
                 'vehicle_Year = %s limit 1'
 
     # Connect to database
-    config = {'user': 'dtqa', 'password': '7roppu$', 'host': 'dmssjosln01.dt.inc',
+    config = {'user': 'username', 'password': 'password', 'host': 'hostname goes here',
               'port': 3306, 'database': 'dtautomation'}
     conn = pymysql.connect(**config)
     connect = conn.cursor()
