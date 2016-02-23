@@ -21,7 +21,7 @@ def vin_service(make=None, year=None):
 
     # Connect to database
     config = {'user': 'username', 'password': 'password', 'host': 'hostname goes here',
-              'port': 3306, 'database': 'dtautomation'}
+              'port': 3306, 'database': 'database name goes here'}
     conn = pymysql.connect(**config)
     connect = conn.cursor()
     # Query the database
